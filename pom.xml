@@ -92,7 +92,7 @@
 	</profiles>
 
 	<build>
-		<finalName>${artifactId}-${version}</finalName>
+		<finalName>${project.artifactId}-${project.version}</finalName>
 		<sourceDirectory>${project.basedir}/java</sourceDirectory>
 		<plugins>
 			<plugin>
