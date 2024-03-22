@@ -3,7 +3,7 @@
 	<groupId>net.anotheria</groupId>
 	<artifactId>maven-ano-doc-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>4.0.1-SNAPSHOT</version>
+	<version>4.1.0-SNAPSHOT</version>
 	<name>AnoDoc Generator for Maven</name>
 
 	<parent>
@@ -48,7 +48,7 @@
 		<dependency>
 			<groupId>net.anotheria</groupId>
 			<artifactId>ano-doc</artifactId>
-			<version>4.0.0</version>
+			<version>4.1.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
@@ -98,11 +98,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
+				<version>3.11.0</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
