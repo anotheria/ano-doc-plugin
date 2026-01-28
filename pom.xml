@@ -1,15 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.anotheria</groupId>
 	<artifactId>maven-ano-doc-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<version>4.3.3-SNAPSHOT</version>
 	<name>AnoDoc Generator for Maven</name>
 
 	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+        <groupId>net.anotheria</groupId>
+        <artifactId>parent</artifactId>
+        <version>4.2</version>
 	</parent>
 
 	<organization>
@@ -48,7 +47,7 @@
 		<dependency>
 			<groupId>net.anotheria</groupId>
 			<artifactId>ano-doc</artifactId>
-			<version>4.3.2</version>
+			<version>4.3.3-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
